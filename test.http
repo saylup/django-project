@@ -11,6 +11,20 @@ Content-Type: application/json
     "patr": "Викторович",  
     "school": 1
 }
+###
+
+POST http://127.0.0.1:8000/api/students/
+Content-Type: application/json
+
+{
+    "name": "Севаблин",
+    "surname": "даяпопробовала", 
+    "patr": "неработаетсева",  
+    "school": 1
+}
+
+
+
 
 ###
 DELETE http://127.0.0.1:8000/api/students/3/
